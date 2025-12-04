@@ -9,6 +9,7 @@ import Footer from './footer';
 // images
 
 import Clear from './assets/clear.png.png';
+import ClearNight from './assets/clearnight.png'
 import Cloud from './assets/cloud.png';
 import Drizzle from './assets/drizzle.png';
 import Rain from './assets/rain.png';
@@ -30,7 +31,7 @@ const MainApp = ({text, img, setText, setImg, temp, setTemp, location, setLocati
 
   const weatherIconMap = {
     "01d" : Clear,
-    "01n" : Clear,
+    "01n" : ClearNight,
     "02d" : Cloud,
     "02n" : Cloud,
     "03d" : Drizzle,
